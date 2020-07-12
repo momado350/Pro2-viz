@@ -22,7 +22,7 @@ var map = L.map("myMap", {
 heatmap.addTo(map);
 
 // get geoJSON data.
-d3.json("http://127.0.0.1:5000//api/v1.0/over45percent", function(data) {
+d3.json("http://127.0.0.1:5000/api/v1.0/over45percent", function(data) {
   console.log("mydata")
   console.log(data)
 
@@ -115,3 +115,5 @@ d3.json("http://127.0.0.1:5000//api/v1.0/over45percent", function(data) {
 
   legend.addTo(map);
 });
+var hello = "hello worl"
+console.log(hello);
